@@ -1,0 +1,20 @@
+{
+  "name": "androiddemo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "\"Wave\": an Android phone in the spirit of One UI 7 in the browser - shade, recents, files, games (fan-made, not affiliated with Samsung or Google)",
+  "author": "ALEXalesha",
+  "license": "MIT",
+  "homepage": "https://alexalesha.github.io/AndroidDemo/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALEXalesha/AndroidDemo.git"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "screenshots": "node tools/screenshots.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1"
+  }
+}
